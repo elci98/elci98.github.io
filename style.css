@@ -374,6 +374,9 @@ section .button button:hover {
   width: 80%;
   text-align: center;
   margin: auto;
+  p{
+    color: white;
+  }
 }
 footer {
   background: #3b9345;

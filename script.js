@@ -1,7 +1,8 @@
 const titles = [
-    "Developer",
-    "Engineer",
-    "Self Lerner"
+    "Full Stack Developer",
+    "Self Lerner",
+    "quick learner",
+    "Team Player", 
 ]
 charIndex = 0;
 textIndex = 0;
