@@ -9,155 +9,158 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <nav>
-      <div class="nav-container">
-        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
-          <span>Elchanan</span>
-        </div>
-        <div class="links">
-          <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" class="link"><a href="#">Home</a></div>
-          <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" class="link"><a href="#about">About</a></div>
-          <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" class="link"><a href="#skills">Skills</a></div>
-          <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" class="link"><a href="#contact">Contact</a></div>
-        </div>
-        <i id="hamburg" class="fa-solid fa-bars hamburg" onclick="onHamburgClick()"></i>
-      </div>
-        <div id="dropdown" class="dropdown">
-          <div class="links">
-            <a href="#">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
-            <i id="cancel" class="fa-solid fa-xmark cancel" onclick="onCancelClick()"></i>
-          </div>
-        </div>
-    </nav>
-    <section>
-      <div class="main-container">
-        <div class="image" data-aos="zoom-out" data-aos-duration="3000">
-          <img src="logo4.jpg" alt="" />
-        </div>
-        <div class="content">
-          <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700"">
-            Hey I'm
+    <header>
+      <nav>
+        <div class="nav-container">
+          <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
             <span>Elchanan</span>
-          </h1>
-          <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
-            I'm a
-            <span id="typewriter" class="typewriter-text"></span>
-            <label for="typewriter">|</label>
           </div>
-          <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
-            Building scalable, high-performance web applications with Angular, Node.js, and microservices.
-          </p>
-
-          <div class="social-links">
-            <a href="https://github.com/elci98" target="_blank">
-              <i data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300" class="fa-brands fa-github"></i>
-            </a>
-            <a href="mailto:elchananmahatsri@google.com" target="_blank">
-              <i data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400" class="fa fa-envelope"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/elchanan-mahatsri/" target="_blank">
-              <i data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500" class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="tel:+972509100961" target="_blank">
-              <i data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600" class="fa-solid fa-phone"></i>
-            </a>
+          <div class="links">
+            <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" class="link"><a href="#">Home</a></div>
+            <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" class="link"><a href="#about">About</a></div>
+            <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" class="link"><a href="#skills">Skills</a></div>
+            <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" class="link"><a href="#contact">Contact</a></div>
           </div>
+          <i id="hamburg" class="fa-solid fa-bars hamburg" onclick="onHamburgClick()"></i>
         </div>
-      </div>
-    </section>
-
-    <section class="about" id="about">
-      <div class="content">
-        <div data-aos="fade-up" data-aos-duration="1500" class="title">
-          <span>About Me</span>
-        </div>
-        <div class="about-details">
-          <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200" class="left">
-            <img src="my-photo.jpg" alt="" />
+          <div id="dropdown" class="dropdown">
+            <div class="links">
+              <a href="#">Home</a>
+              <a href="#about">About</a>
+              <a href="#skills">Skills</a>
+              <a href="#contact">Contact</a>
+              <i id="cancel" class="fa-solid fa-xmark cancel" onclick="onCancelClick()"></i>
+            </div>
           </div>
-          <div class="right">
-            <div data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200" class="topic"> Getting To Know Me</div>
-            <p>
-              I am a Full Stack Developer with a strong background in Angular, Node.js, and microservices architecture.</br> 
-              With experience in both frontend and backend development, I specialize in creating scalable, efficient, and user-friendly applications. 
-              Currently, I work at Elbit Systems – UAV Division, where I contribute to large-scale projects that serve thousands of users.</br>
-              My expertise includes developing microservices, optimizing CI/CD workflows, and integrating real-time messaging systems like Kafka.
-              I am passionate about solving complex problems and continuously improving development processes to enhance performance and scalability.
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="main-container">
+          <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+            <img src="images/main-photo.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700"">
+              Hey I'm
+              <span>Elchanan</span>
+            </h1>
+            <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+              I'm a
+              <span id="typewriter" class="typewriter-text"></span>
+              <label for="typewriter">|</label>
+            </div>
+            <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+              Building scalable, high-performance web applications with Angular, Node.js, and microservices.
             </p>
-            <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400" class="btn">
-              <a href="Elchanan_Mahatsri_cv.pdf" download="Elchanan_Mahatsri_cv.pdf">
-              <button>
-                Download CV
-              </button>
-            </a>
+
+            <div class="social-links">
+              <a href="https://github.com/elci98" target="_blank">
+                <i data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300" class="fa-brands fa-github"></i>
+              </a>
+              <a href="mailto:elchananmahatsri@google.com" target="_blank">
+                <i data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400" class="fa fa-envelope"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/elchanan-mahatsri/" target="_blank">
+                <i data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500" class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="tel:+972509100961" target="_blank">
+                <i data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600" class="fa-solid fa-phone"></i>
+              </a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="skills" id="skills">
-      <div class="content">
-        <div data-aos="fade-up" data-aos-duration="1200" class="title"><span>My Skills</span></div>
-        <div class="skills-details">
-          <div class="text">
-            <div data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200" class="topic">Skill Set Highlights</div>
-            <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">I specialize in full stack development with expertise in Angular, Node.js, and Express. I work with MongoDB, ElasticSearch, and Redis for data management and use Jenkins, OpenShift, and Docker for CI/CD. Proficient in JavaScript, TypeScript, and Python, I also integrate Kafka for real-time data processing and use Git for version control.</p>
-            <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600" class="experience">
-              <div class="num">3</div>
-              <div class="exp">
-                Years OF <br />
-                Experience
+      </section>
+
+      <section class="about" id="about">
+        <div class="content">
+          <div data-aos="fade-up" data-aos-duration="1500" class="title">
+            <span>About Me</span>
+          </div>
+          <div class="about-details">
+            <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200" class="left">
+              <img src="images/my-photo.jpg" alt="" />
+            </div>
+            <div class="right">
+              <div data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200" class="topic"> Getting To Know Me</div>
+              <p>
+                I am a Full Stack Developer with a strong background in Angular, Node.js, and microservices architecture.</br> 
+                With experience in both frontend and backend development, I specialize in creating scalable, efficient, and user-friendly applications. 
+                Currently, I work at Elbit Systems – UAV Division, where I contribute to large-scale projects that serve thousands of users.</br>
+                My expertise includes developing microservices, optimizing CI/CD workflows, and integrating real-time messaging systems like Kafka.
+                I am passionate about solving complex problems and continuously improving development processes to enhance performance and scalability.
+              </p>
+              <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400" class="btn">
+                <a href="Elchanan_Mahatsri_cv.pdf" download="Elchanan_Mahatsri_cv.pdf">
+                <button>
+                  Download CV
+                </button>
+              </a>
               </div>
             </div>
           </div>
-          <div class="boxes">
-            <div class="box">
-              <div data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150" class="topic">HTML</div>
-              <div data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300" class="per">80%</div>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <div class="content">
+          <div data-aos="fade-up" data-aos-duration="1200" class="title"><span>My Skills</span></div>
+          <div class="skills-details">
+            <div class="text">
+              <div data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200" class="topic">Skill Set Highlights</div>
+              <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">I specialize in full stack development with expertise in Angular, Node.js, and Express. I work with MongoDB, ElasticSearch, and Redis for data management and use Jenkins, OpenShift, and Docker for CI/CD. Proficient in JavaScript, TypeScript, and Python, I also integrate Kafka for real-time data processing and use Git for version control.</p>
+              <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600" class="experience">
+                <div class="num">3</div>
+                <div class="exp">
+                  Years OF <br />
+                  Experience
+                </div>
+              </div>
             </div>
-            <div class="box">
-              <div data-aos="fade-left" data-aos-duration="1200" data-aos-delay="150" class="topic">CSS</div>
-              <div data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300" class="per">70%</div>
-            </div>
-            <div class="box">
-              <div data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450" class="topic">JavaScript</div>
-              <div data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600" class="per">80%</div>
-            </div>
-            <div class="box">
-              <div data-aos="fade-left" data-aos-duration="1200" data-aos-delay="450" class="topic">Angular</div>
-              <div data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600" class="per">85%</div>
+            <div class="boxes">
+              <div class="box">
+                <div data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150" class="topic">HTML</div>
+                <div data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300" class="per">80%</div>
+              </div>
+              <div class="box">
+                <div data-aos="fade-left" data-aos-duration="1200" data-aos-delay="150" class="topic">CSS</div>
+                <div data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300" class="per">70%</div>
+              </div>
+              <div class="box">
+                <div data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450" class="topic">JavaScript</div>
+                <div data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600" class="per">80%</div>
+              </div>
+              <div class="box">
+                <div data-aos="fade-left" data-aos-duration="1200" data-aos-delay="450" class="topic">Angular</div>
+                <div data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600" class="per">85%</div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="contact" id="contact">
-      <div class="content">
-        <div data-aos="fade-up" data-aos-duration="1500" class="title">
-          <span>Contact Me</span>
-        </div>
-        <div class="text">
-          <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200" class="topic">Looking to collaborate or connect?</div>
-          <p>
-            I’m always open to new opportunities, collaborations, and discussions about full stack development, microservices, and scalable web applications. 
-            If you’d like to connect, feel free to reach out on LinkedIn or explore my projects on GitHub. Whether it’s a professional inquiry, a development challenge, or just a tech discussion, I’d love to hear from you!
-          </p>
-          <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400" class="btn">
-            <a href="tel:+972509100961" target="_blank">
-              <button>Let's Chat</button>
-            </a>
+      <section class="contact" id="contact">
+        <div class="content">
+          <div data-aos="fade-up" data-aos-duration="1500" class="title">
+            <span>Contact Me</span>
+          </div>
+          <div class="text">
+            <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200" class="topic">Looking to collaborate or connect?</div>
+            <p>
+              I’m always open to new opportunities, collaborations, and discussions about full stack development, microservices, and scalable web applications. 
+              If you’d like to connect, feel free to reach out on LinkedIn or explore my projects on GitHub. Whether it’s a professional inquiry, a development challenge, or just a tech discussion, I’d love to hear from you!
+            </p>
+            <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400" class="btn">
+              <a href="tel:+972509100961" target="_blank">
+                <button>Let's Chat</button>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-
+      </section>
+    </main>
     <footer>
       <div class="text">
         <span>Created By Elci98 |
